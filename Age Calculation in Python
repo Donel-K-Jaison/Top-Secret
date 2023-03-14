@@ -1,0 +1,13 @@
+print("Data Verification")
+name = input("FULL NAME - ")
+bod = input("DATE OF BIRTH (dd-mm-yyyy) - ")
+a = bod[6:10]
+age = 2021 - int(a)
+print('Records of ' + name)
+print(bod)
+print(str(age) + 'years old.')
+print('Location found from India....')
+print("Average height of 5'8feet.")
+print('No criminal records found.')
+print('Fingerprint authorization required....')
+print("Scanning process begines, please don't move")
